@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Ilana Leva</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="all,follow">
+    <!-- Bootstrap CSS-->
+    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+    <!-- Font Awesome CSS-->
+    <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css">
+    <!-- Google fonts - Montserrat for headings, Cardo for copy-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Cardo:400,400italic,700">
+    <!-- Lightbox-->
+    <link rel="stylesheet" href="vendor/lightbox2/css/lightbox.min.css">
+    <!-- theme stylesheet-->
+    <link rel="stylesheet" href="css/style.default.css" id="theme-stylesheet">
+    <!-- Custom stylesheet - for your changes-->
+    <link rel="stylesheet" href="css/custom.css">
+    <!-- Favicon-->
+    <link rel="shortcut icon" href="img/favicon.png">
+    <!-- Leaflet CSS - For the map-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.4.0/leaflet.css">
+    <!-- Tweaks for older IEs--><!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+      </head>
+  <body>
+    <section id="intro" style="background-image: url('img/landing.gif');" class="intro">       
+      <div class="overlay"></div>
+      <div class="content">
+        <div class="container clearfix">
+          <div class="row">
+            <div class="col-lg-8 col-md-12 mx-auto">
+              <p class="italic">Hi there! I am . . .</p>
+              <h1>Ilana Leva</h1>
+              <p class="italic">
+                <span
+                  class="txt-rotate"
+                  data-period="2000"
+                  data-rotate='[ " Developer.", " Creative.", " Traveller.", " Animal Lover." ]'></span
+              ></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- intro end-->
+
+    <!-- navbar-->
+    <header class="header">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container"><a href="#intro" class="navbar-brand link-scroll"><img src="img/logo.png" alt="" class="img-fluid"></a>
+          <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right"><i class="fa fa-bars"></i></button>
+          <div id="navbarSupportedContent" class="collapse navbar-collapse">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item"><a href="#intro" class="nav-link link-scroll">Home</a></li>
+              <li class="nav-item"><a href="#about" class="nav-link link-scroll">About </a></li>
+              <li class="nav-item"><a href="#skills" class="nav-link link-scroll">Skills</a></li>
+              <li class="nav-item"><a href="#portfolio" class="nav-link link-scroll">Portfolio</a></li>
+              <li class="nav-item"><a href="#experience" class="nav-link link-scroll">Experience</a></li>
+              <li class="nav-item"><a href="#contact" class="nav-link link-scroll">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- navbar end -->
+
+    <!-- about-->
+    <section id="about" class="text">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <h2 class="heading">About me</h2>
+            <p class="lead">Hello, I am Ilana Leva.</p>
+            <p>I am currently based in Boston, Massachusetts.</p>
+            <p>I am a recent graduate from Rochester Institute of Technology (RIT) with a Bachelor of Science in New Media Interactive Development and a Minor in Mathematics.</p>
+            <p>My speciality is in front end development and web development with plenty of experience in JavaScript.</p>
+            <p>I own a bearded dragon, her name is Pan.</p>
+          </div>
+          <div class="col-lg-5 mx-auto">
+            <p><img src="img/profilePic.jpg" alt="" class="img-fluid rounded-circle"></p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- about end-->
+
+    <!-- Skills-->
+    <section id="skills" style="background-color: #eee">
+      <div class="container">
+        <div class="row services">
+          <div class="col-lg-12">
+            <h2 class="heading">Skills</h2>
+            <div class="row">
+              <div class="col-md-4">
+                <div class="box">
+                  <div class="icon"><i class="fa fa-terminal"></i></div>
+                  <h5>Web Development</h5>
+                  <p>JavaScript. HTML5. CSS3.</p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="box">
+                  <div class="icon"><i class="fa fa-desktop"></i></div>
+                  <h5>Design</h5>
+                  <p>Adobe Suite. Figma.</p>
+                </div>
+              </div>
+              <!-- <div class="col-md-4">
+                <div class="box">
+                  <div class="icon"><i class="fa fa-globe"></i></div>
+                  <h5></h5>
+                  <p>Am terminated it excellence invitation projection as. She graceful shy. </p>
+                </div>
+              </div> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Skills end-->
+    
+    <!-- Portfolio / gallery-->
+    <section id="portfolio" class="gallery">
+      <div class="container clearfix">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="row">
+              <div class="col-md-12 col-lg-8">
+                <h2 class="heading">Portfolio</h2>
+                <p>Projects that I have had the pleasure of working on. </p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-4">
+                <div class="box" class="mb-0"><a href="https://designed.cad.rit.edu/nmcapstone/project/lucid"
+                  rel="noopener noreferrer" target="_blank"><img src="img/lucid.png" alt="image" class="img-fluid"></a></div>
+                <!-- <h6 class="mb-0">Senior Capstone Course</h6> -->
+                <p>The team's website.</p>
+              </div>
+              <div class="col-md-4">
+                <div class="box" class="mb-0"><a href="https://practical-aryabhata-76cc60.netlify.app/"
+                  rel="noopener noreferrer" target="_blank"><img src="img/lucid-interactive.png" alt="image" class="img-fluid"></a></div>
+                  <p>The interactive website.</p>
+              </div>
+              <div class="col-md-4">
+                <div class="box" class="mb-0"><a href="http://www.changelingvr.com/"
+                  rel="noopener noreferrer" target="_blank"><img src="img/changelingvr.png" alt="image" class="img-fluid"></a></div>
+                  <p>Website I worked on during Summer 2020.</p>
+              </div>
+            </div>
+            <!-- <div class="row">
+              <div class="col-md-4">
+                <div class="box"><a href="img/portfolio-4.jpg" data-lightbox="image-1" data-title="Some footer information" class="has-border"><img src="img/portfolio-4.jpg" alt="image" class="img-fluid"></a></div>
+              </div>
+              <div class="col-md-4">
+                <div class="box"><a href="img/portfolio-5.jpg" data-lightbox="image-1" data-title="Some footer information" class="has-border"><img src="img/portfolio-5.jpg" alt="image" class="img-fluid"></a></div>
+              </div>
+              <div class="col-md-4">
+                <div class="box"><a href="img/portfolio-6.jpg" data-lightbox="image-1" data-title="Some footer information" class="has-border"><img src="img/portfolio-6.jpg" alt="image" class="img-fluid"></a></div>
+              </div>
+            </div> -->
+            <!-- <div class="row">
+              <div class="col-md-4">
+                <div class="box"><a href="img/portfolio-7.jpg" data-lightbox="image-1" data-title="Some footer information" class="has-border"><img src="img/portfolio-7.jpg" alt="image" class="img-fluid"></a></div>
+              </div>
+              <div class="col-md-4">
+                <div class="box"><a href="img/portfolio-8.jpg" data-lightbox="image-1" data-title="Some footer information" class="has-border"><img src="img/portfolio-8.jpg" alt="image" class="img-fluid"></a></div>
+              </div>
+              <div class="col-md-4">
+                <div class="box"><a href="img/portfolio-9.jpg" data-lightbox="image-1" data-title="Some footer information" class="has-border"><img src="img/portfolio-9.jpg" alt="image" class="img-fluid"></a></div>
+              </div>
+            </div> -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Portfolio / gallery end-->
+
+    <!-- Experience page-->
+    <section id="experience" class="text-page section-inverse">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <h2 class="heading">Experience</h2>
+            <div class="row">
+              <div class="col-md-6">
+                <p>Web Developer (Intern) for Xena Ad Hoc from June 2020 to August 2020 </p>
+                <p>I was part of a Web Development Team that was in charge of creating an interactive website for the Changeling VR game.</p>
+              </div>
+              <div class="col-md-6">
+                <p>Web Application Developer Intern for IP.com from May 2019 to May 2020 </p>
+                <p>I was a contributor in a small Web Application Development team that was in charge of creating visualizations.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Experience page end-->
+    
+    <!-- contact-->
+    <section id="contact" style="background-color: #fff;" class="text-page pb-4"> 
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <h2 class="heading">Contact & Connect</h2>
+            <div class="row">
+              <div class="col-lg">
+                <p class="social">
+                  <a href="https://www.linkedin.com/in/ilana-leva-818159163/" rel="noopener noreferrer" target="_blank" class="gplus">
+                    <i class="fa fa-linkedin"></i>
+                  </a>
+                  <a href="https://github.com/ilana105" rel="noopener noreferrer" target="_blank" class="instagram">
+                    <i class="fa fa-github"></i>
+                  </a>
+                  <!-- <a href="#" title="" class="gplus"><i class="fa fa-google-plus"></i></a>
+                  <a href="#" title="" class="instagram"><i class="fa fa-instagram"></i></a> -->
+                  <a href="mailto:ifl6325@rit.edu" title="" class="email">
+                    <i class="fa fa-envelope"></i>
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- <div id="map"></div> -->
+    <footer style="background-color: #111;">
+      <div class="container"> 
+        <div class="row copyright">
+          <div class="col-md-6">
+            <p class="mb-md-0 text-center text-md-left">&copy;2020 Ilana Leva</p>
+          </div>
+          <div class="col-md-6">
+            <p class="credit mb-md-0 text-center text-md-right">Template by <a href="https://bootstrapious.com/p/how-to-build-a-working-bootstrap-contact-form">Bootstrapious</a></p>
+            <!-- Please do not remove the backlink to us. It is part of the licence conditions. Thanks for understanding :)-->
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- JavaScript files-->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="vendor/jquery.cookie/jquery.cookie.js"> </script>
+    <script src="vendor/lightbox2/js/lightbox.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.4.0/leaflet.js"> </script>
+    <script src="js/front.js"></script>
+    <script src="js/typing_carousel.js"></script>
+  </body>
+</html>
